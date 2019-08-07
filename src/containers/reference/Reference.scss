@@ -1,0 +1,57 @@
+.reference {
+  background: #f6f6f6;
+
+
+
+  img:hover{
+    -webkit-box-shadow: 21px 28px 53px -4px rgba(128,128,128,1);
+    -moz-box-shadow: 21px 28px 53px -4px rgba(128,128,128,1);
+    box-shadow: 21px 28px 53px -4px rgba(128,128,128,1);
+  }
+
+  img{
+    -webkit-box-shadow: 21px 28px 53px -4px rgb(226, 226, 226);
+    -moz-box-shadow: 21px 28px 53px -4px rgb(226, 226, 226);
+    box-shadow: 21px 28px 53px -4px rgb(226, 226, 226);
+    transition: all 0.5s ease-out;
+  }
+
+  img.reference-img{
+    max-height: 600px;
+    border-radius: 10px;
+  }
+
+  .head {
+    padding: 20px;
+
+
+    img.minicon{
+      width: 35px;
+      height: auto;
+    }
+
+
+
+
+    .left-info-box{
+      min-width: 600px;
+      position: relative;
+      top: 20%;
+      left: 40%;
+      background: #ffffff;
+      padding: 50px;
+    }
+
+    .right-info-box{
+      min-width: 600px;
+      position: relative;
+      top: 20%;
+      right: 80%;
+      background: #ffffff;
+      padding: 50px;
+    }
+  }
+
+  .other {
+  }
+}

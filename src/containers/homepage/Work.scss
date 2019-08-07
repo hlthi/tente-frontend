@@ -1,0 +1,97 @@
+#work-container {
+  padding-top: 50px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+
+  .title {
+    font-size: 36px;
+    color: #ffffff;
+    font-weight: 700 !important;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+  }
+
+  .image-grid-name{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+  }
+
+
+  .image-grid {
+    cursor: pointer;
+    position: relative;
+    width: auto;
+    height: 500px;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+
+    transition: all 1s;
+  }
+
+  .image-grid:hover {
+    transform: scale(1.05);
+  }
+
+  .title-1 {
+    background-image: url('../icons/5.png');
+  }
+
+  .title-2 {
+    background-image: url('../icons/1.png');
+  }
+
+  .title-3 {
+    background-image: url('../icons/3.png');
+  }
+
+  .title-4 {
+    background-image: url('../icons/4.png');
+  }
+
+  .title-5 {
+    background-image: url('../icons/2.png');
+  }
+
+  @keyframes progress {
+    0% {
+      transform: translateX(0px);
+    }
+    100% {
+      transform: translateX(1440px);
+    }
+  }
+
+  hr {
+    border: 0;
+    clear: both;
+    display: block;
+    margin: 1rem auto;
+    text-align: center;
+    width: 100%;
+  }
+
+  .line {
+    background: rgba(1, 15, 30, 0.1);
+    height: 1px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .line::before {
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-name: progress;
+    background: #111;
+    content: '';
+    display: block;
+    height: 1px;
+    position: absolute;
+    width: 80px;
+  }
+}

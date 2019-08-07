@@ -1,0 +1,56 @@
+#showme-container {
+  padding-top: 1rem;
+
+  .call {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    .leaf-icon {
+      max-width: 40px;
+      height: auto;
+    }
+
+    .button-text {
+      padding: 0 1.5rem;
+    }
+  }
+
+  .pna {
+    font-size: 25px;
+  }
+
+  .light-image {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    transition: all 1s;
+    background-image: url('../icons/6.jpeg');
+
+    .inside {
+      background: rgba(0, 0, 0, 0.59);
+      padding-left: 40px;
+      .per1 {
+        font-size: 45px;
+        padding-top: 40px;
+      }
+
+      .per2 {
+        font-size: 35px;
+        padding-top: 80px;
+        color: #ffffff;
+        padding-bottom: 60px;
+      }
+    }
+  }
+
+  .contact-us{
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    .arr-right{
+      font-size: 50px;
+      line-height: 22px;
+
+    }
+  }
+}

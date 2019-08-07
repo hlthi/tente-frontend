@@ -1,0 +1,18 @@
+/*------------------------
+	icons
+-------------------------*/
+@function unicode($str) {
+  @return unquote("\"\\#{$str}\"");
+}
+
+$icon-phone: unicode(ea01);
+$icon-time: unicode(ea02);
+
+.icon-phone::before {
+  content: $icon-phone;
+}
+
+.icon-time::before {
+  content: $icon-time;
+}
+

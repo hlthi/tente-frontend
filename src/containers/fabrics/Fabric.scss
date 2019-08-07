@@ -1,0 +1,59 @@
+.fabric{
+  background: #f6f6f6;
+
+
+  .bono{
+  }
+
+  .head-brand{
+
+  }
+
+  .head {
+    padding: 20px;
+
+    img.minicon{
+      width: 35px;
+      height: auto;
+    }
+
+    img.head-img {
+      max-height: 900px;
+      border-radius: 10px;
+    }
+
+    .left-info-box{
+      min-width: 500px;
+      position: relative;
+      top: 20%;
+      left: 40%;
+      background: #ffffff;
+      padding: 50px;
+    }
+
+    .right-info-box{
+      min-width: 500px;
+      position: relative;
+      top: 20%;
+      right: 50%;
+      background: #ffffff;
+      padding: 50px;
+    }
+  }
+
+  img.fabric-img-small{
+    margin-top: 80px;
+    max-width: 180px;
+    height: auto;
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+  }
+
+  .grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    grid-gap: 1em;
+  }
+}

@@ -1,0 +1,18 @@
+#logobar-container {
+  height: 90px;
+  padding: 20px 10px 0px 10px;
+  .logo {
+    width: 90px;
+    height: auto;
+  }
+
+  .item {
+    padding-right: 20px;
+  }
+
+  img.hamburger{
+    width: auto;
+    padding-right: 15px;
+    height: 40px;
+  }
+}

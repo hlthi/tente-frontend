@@ -1,0 +1,36 @@
+#first-container {
+  padding-top: 1rem;
+  padding-right: 10px;
+  padding-left: 10px;
+
+  .call {
+    padding-top: 35px;
+    .leaf-icon {
+      max-width: 40px;
+      height: auto;
+    }
+
+    .button-text {
+      padding: 0 1.5rem;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .pna {
+        margin-top: -25px;
+        font-size: 20px;
+      text-align: center;
+      }
+  }
+
+  @media only screen and (min-width: 600px) {
+    .pna {
+      margin-top: -25px;
+      font-size: 25px;
+    }
+  }
+
+
+
+
+}

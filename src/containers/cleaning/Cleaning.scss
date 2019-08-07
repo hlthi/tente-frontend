@@ -1,0 +1,75 @@
+.cleaning{
+  padding: 0 30px;
+
+  .second-info{
+    background: #dcdcdc;
+    border: 1px solid #ababab;
+    padding: 15px;
+    min-height: 300px;
+    margin-top: 40px;
+    width: 100%;
+    min-width: 280px;
+
+    p{
+      margin: 20px 0;
+    }
+  }
+
+  ul {
+    margin-left: 30px;
+    list-style-type: circle;
+  }
+
+
+  ol {
+    margin-left: 10px;
+    padding:0;
+    counter-reset:item;
+  }
+
+  ol>li {
+    margin:0;
+    padding:0 0 0 2em;
+    text-indent:-2em;
+    list-style-type:none;
+    counter-increment:item;
+  }
+
+  ol>li:before {
+    display:inline-block;
+    width:1.5em;
+    padding-right:0.5em;
+    font-weight:bold;
+    text-align:right;
+    content:counter(item) ".";
+  }
+
+  hr {
+    border: 0;
+    clear: both;
+    display: block;
+    margin: 1rem auto;
+    text-align: center;
+    width: 100%;
+  }
+
+  .line {
+    background: rgba(1, 15, 30, 0.1);
+    height: 1px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .line::before {
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-name: progress;
+    background: #111;
+    content: '';
+    display: block;
+    height: 1px;
+    position: absolute;
+    width: 80px;
+  }
+}

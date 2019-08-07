@@ -1,0 +1,50 @@
+#contact-container {
+  padding-top: 50px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+
+  .contact-item{
+
+    .title{
+      
+    }
+  }
+
+  @keyframes progress {
+    0% {
+      transform: translateX(0px);
+    }
+    100% {
+      transform: translateX(1440px);
+    }
+  }
+
+  hr {
+    border: 0;
+    clear: both;
+    display: block;
+    margin: 1rem auto;
+    text-align: center;
+    width: 100%;
+  }
+
+  .line {
+    background: rgba(1, 15, 30, 0.1);
+    height: 1px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .line::before {
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-name: progress;
+    background: #111;
+    content: '';
+    display: block;
+    height: 1px;
+    position: absolute;
+    width: 80px;
+  }
+}
