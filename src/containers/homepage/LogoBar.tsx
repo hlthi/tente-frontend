@@ -19,6 +19,7 @@ class LogoBar extends Component {
           <div className="is-hidden-touch">
             <div className="u-flex u-flexJustifyEnd">
               <Link to="/" className="item hide-ugly-a semibold-font font-18">Ana Sayfa</Link>
+              <Link to="/blog" className="item hide-ugly-a semibold-font font-18">Blog</Link>
               <Link to="/kumas/docril" className="item hide-ugly-a semibold-font font-18">Katolog/Kumaşlar</Link>
               <Link to="/iletisim" className="item hide-ugly-a semibold-font font-18">İletişim</Link>
               <Link to="/temizleme" className="item hide-ugly-a thin-font font-18">Nasıl Temizlenmeli</Link>

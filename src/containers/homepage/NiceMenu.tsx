@@ -15,6 +15,9 @@ const NiceMenu: React.FC<IProps> = props => {
       <Link to="/" className="menu-item">
         Ana Sayfa
       </Link>
+      <Link to="/blog" className="menu-item">
+        Blog
+      </Link>
       <Link to="/kumas/docril" className="menu-item">
          Katalog/Kumaşlar
       </Link>
